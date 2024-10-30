@@ -17,11 +17,13 @@ A Python tool designed to reduce PDF file size by compressing and downscaling im
   <li>PyMuPDF (fitz): For accessing and manipulating PDF file structure, extracting and replacing images on each page.</li>
   <li>Pillow (PIL): For image manipulation, resizing, and quality adjustment.</li>
 </ul>
+
 **Key Parameters:** <br>
 <ul>
   <li>dpi: Controls the resolution for image downscaling (default is 72 DPI; higher values result in less compression).</li>
   <li>quality: JPEG compression quality (default is 50, with 0 being lowest quality and 100 being maximum).</li>
 </ul>
+
 **Usage Example:** <br>
 <ol>
   <li>Install dependencies with pip install pymupdf pillow.</li>
