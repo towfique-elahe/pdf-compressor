@@ -36,8 +36,6 @@ A Python tool designed to reduce PDF file size by compressing and downscaling im
 To compress a PDF, use the following code:
 
 ```python
-from compress_pdf import compress_pdf
-
 # Define paths and compression settings
 input_pdf = "path/to/large_file.pdf"
 output_pdf = "compressed_file.pdf"
